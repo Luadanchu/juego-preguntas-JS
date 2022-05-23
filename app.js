@@ -5,6 +5,11 @@ const opciones = Array.from(document.getElementsByClassName('choice-text'));
 
 const scoreText = document.getElementById('score');
 
+const nombreJugador = document.getElementById('username');
+const botonScore = document.getElementById('scoreBoton');
+const scoreFinal = document.getElementById('scoreFinal');
+const ultimoScore = localStorage.getItem('ultimoScore');
+
 let preguntaActual = {};
 let respuestasVer = false;
 let score = 0;
@@ -29,8 +34,6 @@ fetch('questions.json')
         console.error(err);
     });
 
-
-
 //EMPEZAR EL JUEGO
 iniciarJuego = () => {
     indPregunta = 0;
@@ -45,7 +48,7 @@ imprimirNuevaPreg = () => {
     if (arrayPregDisp.length === 0 || indPregunta >= cantPreguntas) {
 
         //LOCAL STORAGE
-        localStorage.setItem('mostRecentScore', score);
+        localStorage.setItem('ultimoScore', score);
         //QUE ME LLEVE AL FINAL DEL JUEGO
         return window.location.assign('./final.html');
     };
@@ -99,36 +102,31 @@ puntajejugador = (i) => {
     scoreText.innerText = score;
 };
 
+//LOCAL STORAGE => FIN JUEGO
 
-
-
-
-
-
-//TABLA DE POSICIONES => FIN JUEGO
-const username = document.getElementById('username');
-const saveScoreBtn = document.getElementById('saveScoreBtn');
-const finalScore = document.getElementById('finalScore');
-const mostRecentScore = localStorage.getItem('mostRecentScore');
-
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const mayoresScores = JSON.parse(localStorage.getItem('mayoresScores')) || [];
+//console.log(mayoresScores)
  
-finalScore.innerText = mostRecentScore;
+scoreFinal.innerText = ultimoScore;
 
-username.addEventListener('keyup', () => {
-    saveScoreBtn.disabled = !username.value;
+nombreJugador.addEventListener('keyup', () => {
+    botonScore.disabled = !nombreJugador.value;
+    //console.log(nombreJugador.value)
 });
 
-saveHighScore = (e) => {
+guardarPuntaje = (e) => {
     e.preventDefault();
 
     const score = {
-        score: mostRecentScore,
-        name: username.value,
+        score: ultimoScore,
+        name: nombreJugador.value,
     };
-    highScores.push(score);
-    highScores.sort((a, b) => b.score - a.score);
+    mayoresScores.push(score);
+    mayoresScores.sort((a, b) => b.score - a.score);
 
-    localStorage.setItem('highScores', JSON.stringify(highScores));
+    //REEMPLAZO EL LOCAL STORAGE
+    localStorage.setItem('mayoresScores', JSON.stringify(mayoresScores));
     window.location.assign('/');
+
+    //console.log(mayoresScores)
 };
