@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Juguemos</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <!-- <div id="hud-item"> -->
+          <!-- <p id="progressText">Question</p> -->
+          <!-- <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div> -->
+          <!-- </div> -->
+          <div id="hud-item">
+            <p class="hud-prefix">Score</p>
+            <h2 class="hud-main-text" id="score">0</h2>
+          </div>
+        </div>
+        <h3 id="introduccion">Introduccion</h3>
+        <h3 id="question">¿Pregunta?</h3>
+        <div class="choice-container">
+          <div class="choice-text" data-number="1">Opcion 1</div>
+        </div>
+        <div class="choice-container">
+          <div class="choice-text" data-number="2">Opcion 2</div>
+        </div>
+        <div class="choice-container">
+          <div class="choice-text" data-number="3">Opcion 3</div>
+        </div>
+        <div class="choice-container">
+          <div class="choice-text" data-number="4">Opcion 4</div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

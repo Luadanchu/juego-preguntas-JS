@@ -1,0 +1,29 @@
+[
+  {
+    "introduccion": "Una pregunta que sabemos todos",
+    "pregunta": "¿Qué país será la sede del mundial 2022?",
+    "opcion1": "Qatar",
+    "opcion2": "Emiratos Árabes Unidos (EAU)",
+    "opcion3": "Arabia Saudita",
+    "opcion4": "Turquía",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "Una pregunta fácil",
+    "pregunta": "¿Cuántos países participan en el mundial 2022?",
+    "opcion1": "42",
+    "opcion2": "22",
+    "opcion3": "32",
+    "opcion4": "12",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "Un recuerdo reciente",
+    "pregunta": "¿Qué país se coronó campeón en el mundial en el 2018?",
+    "opcion1": "Croacia",
+    "opcion2": "Francia",
+    "opcion3": "Inglaterra",
+    "opcion4": "Rusia",
+    "verdadera": 2
+  }
+] 
