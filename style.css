@@ -219,4 +219,8 @@ input::placeholder {
   .btn {
     width: 80%;
   }
+
+  input{
+    width: 80%;
+  }
 }
