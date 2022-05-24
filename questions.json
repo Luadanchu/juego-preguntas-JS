@@ -72,12 +72,228 @@
     "verdadera": 1
   },
   {
-    "introduccion": "Hablemos de reconocimientos",
-    "pregunta": "¿Qué país es el máximo campeón en la historia de los mundiales?",
-    "opcion1": "Alemania",
-    "opcion2": "Mexico, Canadá y Estados Unidos",
-    "opcion3": "Holanda",
-    "opcion4": "Brasil",
+    "introduccion": "Hablemos de grandes figuras",
+    "pregunta": "¿Quién es el jugador que ha ganado más copas del mundo?",
+    "opcion1": "Enraldo Monzeglio",
+    "opcion2": "Giovanni Ferrari",
+    "opcion3": "Pelé",
+    "opcion4": "Mauro Ramos",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "El mundial 2026 tendrá un formato diferente",
+    "pregunta": "¿Cuál va a ser la novedad?",
+    "opcion1": "Va a haber VAR",
+    "opcion2": "Clasificarán 48 selecciones",
+    "opcion3": "Se jugará en Diciembre",
+    "opcion4": "Va a ser el primer mundial en África",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "Vamos por las estrellas mas vistas",
+    "pregunta": "¿Cuál es el jugador con mas partidos jugados en los mundiales?",
+    "opcion1": "Diego Maradona",
+    "opcion2": "Lothar Mattahus",
+    "opcion3": "Miroslav Klose",
+    "opcion4": "Javier Marcherano",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "Hablemos de récords!",
+    "pregunta": "¿Cuál fué la mayor cantidad de goles anotados en un solo partido?",
+    "opcion1": "10",
+    "opcion2": "8",
+    "opcion3": "16",
+    "opcion4": "12",
     "verdadera": 4
+  },
+  {
+    "introduccion": "Veamos que tanto sabes de historia",
+    "pregunta": "¿Las selecciones de qué países protagonizaron el partido mas violento de la historia?",
+    "opcion1": "España - Italia",
+    "opcion2": "Brasil - Alemania",
+    "opcion3": "Paises Bajos - Portugal",
+    "opcion4": "Argentina - Uruguay",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "Tarjetas en el fútbol",
+    "pregunta": "¿Cuál es el récord de tarjetas sacadas en un partido de mundial?",
+    "opcion1": "16 Amarillas - 4 Rojas",
+    "opcion2": "3 Amarillas - 15 Rojas",
+    "opcion3": "20 Amarillas - 10 Rojas",
+    "opcion4": "18 Amarillas - 4 Rojas",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "Recuerdos...",
+    "pregunta": "¿En qué año ocurrió el llamado Maracanazo?",
+    "opcion1": "1978",
+    "opcion2": "1950",
+    "opcion3": "2006",
+    "opcion4": "1954",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "Sucesos bisagra",
+    "pregunta": "¿Las selecciones de qué paises, protagonizaron el Maracanazo?",
+    "opcion1": "Argentina y Bolivia",
+    "opcion2": "Brasil y Paraguay",
+    "opcion3": "Perú y Chile",
+    "opcion4": "Brasil y Uruguay",
+    "verdadera": 4
+  },
+  {
+    "introduccion": "Nombres propios",
+    "pregunta": "¿A qué suceso se lo conoce como El Milagro de Berna?",
+    "opcion1": "Alemania gana su primer mundial",
+    "opcion2": "Debut mundialista de Berna",
+    "opcion3": "Alemania pierde la final",
+    "opcion4": "Berna mete 5 goles",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "Cambios históricos",
+    "pregunta": "¿En qué mundial se empezó a implementar el VAR?",
+    "opcion1": "Alemania 2006",
+    "opcion2": "Qatar 2022",
+    "opcion3": "Rusia 2018",
+    "opcion4": "Brasil 2014",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "En 1966, el presidente de la FIFA, sacó a escondidas el trofeo para protegerlo de los nazis",
+    "pregunta": "¿Dónde lo escondió?",
+    "opcion1": "En un hueco en la pared de la cocina",
+    "opcion2": "En casa de su madre",
+    "opcion3": "En un acaja de zapatos, bajo la cama",
+    "opcion4": "Dentro de un oso de su hija",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "Apodos",
+    "pregunta": "¿Qué selecciones protagonizaron el partido apodado La Batalla de Santiago?",
+    "opcion1": "Brasil - Chile",
+    "opcion2": "Chile - Italia",
+    "opcion3": "Italia - España",
+    "opcion4": "Italia - España",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "El escultor Silvio Gazzaniga fué el encargado del diseño de la copa del mundo",
+    "pregunta": "¿Qué otros trofeos diseñó?",
+    "opcion1": "Copa del Rey y la Libertadores de América",
+    "opcion2": "Copa de la Champions",
+    "opcion3": "Ninguna",
+    "opcion4": "19Copa de la UEFA y la Supercopa de la UEFA54",
+    "verdadera": 4
+  },
+  {
+    "introduccion": "Sorprender al rival",
+    "pregunta": "¿Cuál es el gol más rápido de los mundiales?",
+    "opcion1": "11 seg",
+    "opcion2": "56 seg",
+    "opcion3": "1,05 min",
+    "opcion4": "34 seg",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "Primera copa",
+    "pregunta": "¿En qué año ganó su primer mundial Brasil?",
+    "opcion1": "1950",
+    "opcion2": "2014",
+    "opcion3": "1958",
+    "opcion4": "1986",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "Hat trick",
+    "pregunta": "¿Qué jugador consiguió anotar 2 hat trick, en dos ediciones consecutivas?",
+    "opcion1": "László Kiss",
+    "opcion2": "Gabriel Batistuta",
+    "opcion3": "Pelé",
+    "opcion4": "Lothar Matthaus",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "Verguenzas",
+    "pregunta": "¿Porqué lo expulsaron a Zinedine Zidane en la final del mundial Alemania 2006?",
+    "opcion1": "Por una mano en el área",
+    "opcion2": "Le hizo señas obsenas a la hinchada",
+    "opcion3": "Le dió un cabezazo a un jugador contrario",
+    "opcion4": "Insultó al árbitr",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "Momentos",
+    "pregunta": "¿En qué mundial Maradona metió la Mano de Dios?",
+    "opcion1": "Italia 1990",
+    "opcion2": "España 1982",
+    "opcion3": "Mexico 1970",
+    "opcion4": "Mexico 1986",
+    "verdadera": 4
+  },
+  {
+    "introduccion": "Goleadas para el recuerdo",
+    "pregunta": "¿La selección de qué país le ganó al Brasil anfitrión 1-7?",
+    "opcion1": "Alemania",
+    "opcion2": "Uruguay",
+    "opcion3": "Francia",
+    "opcion4": "Holanda",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "El trofeo codiciado por todos lo jugadores de fútbol, está hecho de oro",
+    "pregunta": "¿Cuánto pesa?",
+    "opcion1": "5kg",
+    "opcion2": "4,6kg",
+    "opcion3": "4,9g",
+    "opcion4": "5,3kg",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "Primera consagración",
+    "pregunta": "¿Cuál fué el resultado del partido que le dió la primer copa mundial a Brasil?",
+    "opcion1": "1-0",
+    "opcion2": "5-2",
+    "opcion3": "8-5",
+    "opcion4": "4-3",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "Se han jugado 21 mundiales, pero...",
+    "pregunta": "¿Cuántas selecciones han conseguido levantar el trofeo?",
+    "opcion1": "19",
+    "opcion2": "21",
+    "opcion3": "15",
+    "opcion4": "8",
+    "verdadera": 4
+  },
+  {
+    "introduccion": "Mascotas",
+    "pregunta": "¿Qué era la mascota del mundial Inglaterra 1966",
+    "opcion1": "Un tigre",
+    "opcion2": "Un hombre",
+    "opcion3": "Un león",
+    "opcion4": "Una pelota con la bandera Inglesa",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "Goleadores históricos",
+    "pregunta": "¿Qué jugador es considerado el goleador mas viejo?",
+    "opcion1": "Obdulio Varela",
+    "opcion2": "Roger Mila",
+    "opcion3": "Martin Palermo",
+    "opcion4": "John Aldridge",
+    "verdadera": 2
+  },
+  {
+    "introduccion": "Goles en contra",
+    "pregunta": "¿Qué selección metió el primer gol del mundial, y fue uno en contra?",
+    "opcion1": "Brasil",
+    "opcion2": "Japón",
+    "opcion3": "Estado Unidos",
+    "opcion4": "Italia",
+    "verdadera": 1
   }
 ] 

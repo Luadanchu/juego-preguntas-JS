@@ -20,7 +20,7 @@ let preguntas = [];
 
 //PUNTOS
 const sumaPuntos3 = 3;
-const cantPreguntas = 6;
+const cantPreguntas = 33;
 
 //TRAIGO EL JSON
 fetch('questions.json')
@@ -131,7 +131,9 @@ puntajejugador = (i) => {
 const mayoresScores = JSON.parse(localStorage.getItem('mayoresScores')) || [];
 //console.log(mayoresScores)
  
-scoreFinal.innerText = ultimoScore;
+imprimirScore = () =>{
+    scoreFinal.innerText = ultimoScore;
+}
 
 nombreJugador.addEventListener('keyup', () => {
     botonScore.disabled = !nombreJugador.value;
