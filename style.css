@@ -1,10 +1,11 @@
+html{
+  font-size: 62.5%;
+}
+
 :root {
   background-image: url(./img/fondo-pelota-arco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100vh; */
-  /* background-color: #00a10035; */
-  font-size: 62.5%;
 }
 
 * {
@@ -23,9 +24,9 @@ h4 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 5rem;
   color: black;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 h1 > span {
@@ -42,7 +43,7 @@ h3 {
   margin-bottom: 1.5em;
 }
 
-/* UTILITIES */
+/* INICIO */
 
 .container {
   background-color: #ffffff67;
@@ -91,7 +92,7 @@ h3 {
   color: black;
   background: lightgray;
   padding: 1em 0;
-  width: 20em;
+  width: 12em;
   border: 0.1em solid black;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -187,4 +188,35 @@ input::placeholder {
   padding-left: 0;
   margin-bottom: 4rem;
   font-size: 2em;
+}
+
+
+/* RESPONNSIVE */
+@media screen and (max-width: 600px){
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  h3 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .container {
+    width: 85vw;
+    padding: 1em;
+  }
+  
+  .inicio{
+    font-size: 2.4em;
+  }
+
+  .btn {
+    width: 80%;
+  }
 }
