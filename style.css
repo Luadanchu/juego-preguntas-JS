@@ -1,6 +1,4 @@
 
-@import "toastify-js/src/toastify.css";
-
 html{
   font-size: 62.5%;
 }
@@ -17,6 +15,7 @@ html{
   margin: 0;
   padding: 0;
   color: black;
+  overflow: hidden;
 }
 
 h1,
@@ -119,7 +118,7 @@ h3 {
 }
 
 /* JUEGO */
-.choice-container {
+.contenedorPregunta {
   display: flex;
   margin-bottom: 1.5em;
   width: 100%;
@@ -129,14 +128,14 @@ h3 {
   background-color: lightgray;
 }
 
-.choice-container:hover {
+.contenedorPregunta:hover {
   cursor: pointer;
   box-shadow: 0 0.4em 1.4rem 0 #00000025;
   transform: translateY(-0.1em);
   transition: transform 150ms;
 }
 
-.choice-text {
+.botonesRespuestas {
   padding: 1em;
   width: 100%;
 }
@@ -166,10 +165,11 @@ h3 {
 
 .alert{
   position: absolute;
-  width: 25vw;
-  height: 2.2em;
+  width: 20vw;
+  height: 1.8em;
+  padding: .2em;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 
 /* PANTALLA FINAL */
@@ -182,10 +182,12 @@ form {
 
 input {
   margin-bottom: 1em;
-  width: 20em;
+  width: 12em;
+  height: 3em;
   padding: 1.5em;
   font-size: 1.8em;
   border: none;
+  border-radius: 1rem;
   box-shadow: 0 0.1rem 1.4rem 0 #00000025;
 }
 

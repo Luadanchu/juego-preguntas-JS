@@ -25,5 +25,32 @@
     "opcion3": "Inglaterra",
     "opcion4": "Rusia",
     "verdadera": 2
+  },
+  {
+    "introduccion": "Goleadores hay muchos, pero...",
+    "pregunta": "¿Quién es el mayor anotador en la historia de los mundiales?",
+    "opcion1": "Just Fontaine - Francia",
+    "opcion2": "Gabriel Batistuta - Argentina",
+    "opcion3": "Ronaldo - Brasil",
+    "opcion4": "Miroslav Klose - Alemania",
+    "verdadera": 4
+  },
+  {
+    "introduccion": "Viajemos a los inicios",
+    "pregunta": "¿Dónde se realizó el primer mundial en 1930?",
+    "opcion1": "Francia",
+    "opcion2": "Checoslovaquia",
+    "opcion3": "Uruguay",
+    "opcion4": "Italia",
+    "verdadera": 3
+  },
+  {
+    "introduccion": "En 2026 se realizará el primer mundial con sede compartida por 3 países",
+    "pregunta": "¿Sabes de qué paises hablamos?",
+    "opcion1": "Uruguay, Argentina y Chile",
+    "opcion2": "Mexico, Canadá y Estados Unidos",
+    "opcion3": "Korea, Japón y China",
+    "opcion4": "España, Portugal y Francia",
+    "verdadera": 2
   }
 ] 

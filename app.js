@@ -1,7 +1,7 @@
 
 const introduccion = document.getElementById('introduccion');
-const pregunta = document.getElementById('question');
-const opciones = Array.from(document.getElementsByClassName('choice-text'));
+const pregunta = document.getElementById('pregunta');
+const opciones = Array.from(document.getElementsByClassName('botonesRespuestas'));
  
 const scoreText = document.getElementById('score');
 
@@ -20,7 +20,7 @@ let preguntas = [];
 
 //PUNTOS
 const sumaPuntos3 = 3;
-const cantPreguntas = 3;
+const cantPreguntas = 6;
 
 //TRAIGO EL JSON
 fetch('questions.json')
@@ -88,7 +88,7 @@ opciones.forEach((opcion) => {
 
             Toastify({
                 text: "Gool!",
-                duration: 2000,
+                duration: 600,
                 gravity: "top", 
                 position: "right",
                 className: "alert",
@@ -97,6 +97,17 @@ opciones.forEach((opcion) => {
                 },
               }).showToast();
 
+        } else{
+            Toastify({
+                text: "Off Side!",
+                duration: 600,
+                gravity: "top", 
+                position: "right",
+                className: "alert",
+                style: {
+                  background: "#dc3545",
+                },
+              }).showToast();
         }
 
         opcionSeleccionada.parentElement.classList.add(tipoDeRta);
