@@ -1,4 +1,5 @@
 
+//TABLA DE PUNTAJES => no se quedan en el otro archivo
 
 const tablaPuntajes = document.getElementById("tablaPuntajes");
 const puntajes = JSON.parse(localStorage.getItem("mayoresScores")) || [];

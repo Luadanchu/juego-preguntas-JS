@@ -85,7 +85,7 @@ h3 {
 }
 
 
-.btn {
+.boton {
   font-size: 1.8em;
   text-align: center;
   text-decoration: none;
@@ -98,14 +98,14 @@ h3 {
   margin-bottom: 1em;
 }
 
-.btn:hover {
+.boton:hover {
   cursor: pointer;
   box-shadow: 0 0.4em 1.4em 0 #00000025;
   transform: translateY(-0.1em);
   transition: transform 150ms;
 }
 
-.btn[disabled]:hover {
+.boton[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
@@ -147,17 +147,17 @@ h3 {
 }
 
 /* PUNTAJES */
-#hud {
+#puntaje {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-.hud-prefix {
+.textPregPje {
   text-align: center;
   font-size: 2em;
 }
 
-.hud-main-text {
+.textScorePreg {
   text-align: center;
 }
 
@@ -216,7 +216,7 @@ input::placeholder {
     font-size: 2.4em;
   }
 
-  .btn {
+  .boton {
     width: 80%;
   }
 

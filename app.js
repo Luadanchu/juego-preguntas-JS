@@ -2,7 +2,7 @@
 const introduccion = document.getElementById('introduccion');
 const pregunta = document.getElementById('question');
 const opciones = Array.from(document.getElementsByClassName('choice-text'));
-
+ 
 const scoreText = document.getElementById('score');
 
 const nombreJugador = document.getElementById('username');
@@ -16,6 +16,7 @@ let score = 0;
 let indPregunta = 0;
 let arrayPregDisp = [];
 let preguntas = [];
+
 
 //PUNTOS
 const sumaPuntos3 = 3;
@@ -126,7 +127,7 @@ guardarPuntaje = (e) => {
 
     //REEMPLAZO EL LOCAL STORAGE
     localStorage.setItem('mayoresScores', JSON.stringify(mayoresScores));
-    window.location.assign('/');
+    window.location.assign('./index.html');
 
     //console.log(mayoresScores)
 };
