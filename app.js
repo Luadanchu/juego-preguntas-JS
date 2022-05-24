@@ -85,6 +85,18 @@ opciones.forEach((opcion) => {
 
         if (tipoDeRta === 'correct') {
             puntajejugador(sumaPuntos3);
+
+            Toastify({
+                text: "Gool!",
+                duration: 2000,
+                gravity: "top", 
+                position: "right",
+                className: "alert",
+                style: {
+                  background: "#28a745",
+                },
+              }).showToast();
+
         }
 
         opcionSeleccionada.parentElement.classList.add(tipoDeRta);
