@@ -52,5 +52,32 @@
     "opcion3": "Korea, Japón y China",
     "opcion4": "España, Portugal y Francia",
     "verdadera": 2
+  },
+  {
+    "introduccion": "Hablemos de reconocimientos",
+    "pregunta": "¿Qué país es el máximo campeón en la historia de los mundiales?",
+    "opcion1": "Alemania",
+    "opcion2": "Mexico, Canadá y Estados Unidos",
+    "opcion3": "Holanda",
+    "opcion4": "Brasil",
+    "verdadera": 4
+  },
+  {
+    "introduccion": "Nos gustan los goles!",
+    "pregunta": "¿Cuál fué la mayor goleada de la historia?",
+    "opcion1": "10-1",
+    "opcion2": "9-0",
+    "opcion3": "0-8",
+    "opcion4": "5-16",
+    "verdadera": 1
+  },
+  {
+    "introduccion": "Hablemos de reconocimientos",
+    "pregunta": "¿Qué país es el máximo campeón en la historia de los mundiales?",
+    "opcion1": "Alemania",
+    "opcion2": "Mexico, Canadá y Estados Unidos",
+    "opcion3": "Holanda",
+    "opcion4": "Brasil",
+    "verdadera": 4
   }
 ] 
