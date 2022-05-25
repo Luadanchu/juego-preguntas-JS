@@ -57,7 +57,7 @@
     "introduccion": "Hablemos de reconocimientos",
     "pregunta": "¿Qué país es el máximo campeón en la historia de los mundiales?",
     "opcion1": "Alemania",
-    "opcion2": "Mexico, Canadá y Estados Unidos",
+    "opcion2": "Inglaterra",
     "opcion3": "Holanda",
     "opcion4": "Brasil",
     "verdadera": 4
@@ -185,7 +185,7 @@
     "opcion1": "Copa del Rey y la Libertadores de América",
     "opcion2": "Copa de la Champions",
     "opcion3": "Ninguna",
-    "opcion4": "19Copa de la UEFA y la Supercopa de la UEFA54",
+    "opcion4": "Copa de la UEFA y la Supercopa de la UEFA54",
     "verdadera": 4
   },
   {
@@ -221,7 +221,7 @@
     "opcion1": "Por una mano en el área",
     "opcion2": "Le hizo señas obsenas a la hinchada",
     "opcion3": "Le dió un cabezazo a un jugador contrario",
-    "opcion4": "Insultó al árbitr",
+    "opcion4": "Insultó al árbitro",
     "verdadera": 3
   },
   {

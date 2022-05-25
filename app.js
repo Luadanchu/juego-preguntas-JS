@@ -20,6 +20,8 @@ let preguntas = [];
 
 //PUNTOS
 const sumaPuntos3 = 3;
+const SumaPuntos1 = 1;
+let bandera = 0;
 const cantPreguntas = 33;
 
 //TRAIGO EL JSON
@@ -71,6 +73,34 @@ imprimirNuevaPreg = () => {
     respuestasVer = true;
 };
 
+//LIBRERÍAS
+let alertCorrecto = () =>{
+    Toastify({
+        text: "Gool!",
+        duration: 600,
+        gravity: "top", 
+        position: "right",
+        className: "alert",
+        style: {
+          background: "#28a745",
+        },
+    }).showToast();
+}
+
+let alertIncorrecto = () =>{
+    Toastify({
+        text: "Off Side!",
+        duration: 600,
+        gravity: "top", 
+        position: "right",
+        className: "alert",
+        style: {
+          background: "#dc3545",
+        },
+    }).showToast();
+}
+
+//RESOLUCIÓN DE OPCIONES Y COLORES
 opciones.forEach((opcion) => {
     opcion.addEventListener('click', (e) => {
         //console.log(e.target)
@@ -86,28 +116,10 @@ opciones.forEach((opcion) => {
         if (tipoDeRta === 'correct') {
             puntajejugador(sumaPuntos3);
 
-            Toastify({
-                text: "Gool!",
-                duration: 600,
-                gravity: "top", 
-                position: "right",
-                className: "alert",
-                style: {
-                  background: "#28a745",
-                },
-              }).showToast();
+            alertCorrecto();
 
         } else{
-            Toastify({
-                text: "Off Side!",
-                duration: 600,
-                gravity: "top", 
-                position: "right",
-                className: "alert",
-                style: {
-                  background: "#dc3545",
-                },
-              }).showToast();
+            alertIncorrecto();
         }
 
         opcionSeleccionada.parentElement.classList.add(tipoDeRta);
