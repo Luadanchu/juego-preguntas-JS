@@ -234,6 +234,11 @@ input::placeholder {
     margin-bottom: 1.5em;
   }
 
+  h4 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+
   .container {
     width: 85vw;
     padding: 1em;
